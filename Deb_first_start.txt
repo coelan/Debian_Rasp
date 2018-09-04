@@ -5,7 +5,7 @@ Stockage des packages installés dans un fichier texte :
 -< dpkg-query -l > list_packages.txt
 
 Suppression des packages inutiles :
--< sudo apt-get --purge remove xxxxx
+-< sudo apt-get --purge remove wolfram-engine bluej greenfoot nuscratch scratch sonic-pi libreoffice* claws-mail claws-mail-i18n minecraft-pi python-pygame
 
 Reboot et suppression des éventuelles dépendances :
 -< sudo apt-get autoremove --purge
@@ -13,3 +13,11 @@ Reboot et suppression des éventuelles dépendances :
 Check des mises à jour :
 -< sudo apt-get update && sudo apt-get upgrade -y
 
+Installer Screen :
+-< sudo apt-get install screen
+
+Créer un screen 
+-< screen -S nom-du-screen
+
+Rappeller un screen :
+-< screen -r nom-du-screen
