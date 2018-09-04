@@ -1,0 +1,15 @@
+Liste des packages installés :
+-< dpkg-query -l
+
+Stockage des packages installés dans un fichier texte :
+-< dpkg-query -l > list_packages.txt
+
+Suppression des packages inutiles :
+-< sudo apt-get --purge remove xxxxx
+
+Reboot et suppression des éventuelles dépendances :
+-< sudo apt-get autoremove --purge
+
+Check des mises à jour :
+-< sudo apt-get update && sudo apt-get upgrade -y
+
