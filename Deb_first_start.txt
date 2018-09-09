@@ -16,8 +16,14 @@ Check des mises à jour :
 Installer Screen :
 -< sudo apt-get install screen
 
-Créer un screen 
+Créer un screen
 -< screen -S nom-du-screen
 
 Rappeller un screen :
 -< screen -r nom-du-screen
+
+Installations :
+  - Node-red
+  - InfluxDB
+  - Grafana
+  - Clone de la carte SD
