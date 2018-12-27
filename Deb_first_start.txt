@@ -22,6 +22,9 @@ Créer un screen
 Rappeller un screen :
 -< screen -r nom-du-screen
 
+Sortir d'un screen :
+-< ctrl+a
+
 Supprimer ancienne cle SSH :
 -< ssh-keygen -R 192.168.1.11
 
