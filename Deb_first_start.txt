@@ -26,7 +26,8 @@ Sortir d'un screen :
 -< ctrl+a +d
 
 installer SSH :
-apt-get install openssh-server
+-< sudo apt-get install openssh-server
+  ouvrir port 22 avec gufw sur "Bureau"
 
 Supprimer ancienne cle SSH :
 -< ssh-keygen -R 192.168.1.11
