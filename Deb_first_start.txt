@@ -23,7 +23,10 @@ Rappeller un screen :
 -< screen -r nom-du-screen
 
 Sortir d'un screen :
--< ctrl+a
+-< ctrl+a +d
+
+installer SSH :
+apt-get install openssh-server
 
 Supprimer ancienne cle SSH :
 -< ssh-keygen -R 192.168.1.11
