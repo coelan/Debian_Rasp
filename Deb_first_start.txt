@@ -37,3 +37,6 @@ Installations :
   - InfluxDB
   - Grafana
   - Clone de la carte SD
+
+Ajout répertoire GitHub :
+  Package Command Palette -> git clone + url
